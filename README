@@ -1,0 +1,33 @@
+Timp de implementare : 7 zile ( aproximativ 5-6 ore pe zi)
+Jocul este implementat sa functioneze si sa arate uniform intr-un terminal cu
+formatul 115X40.
+Cerința 1:
+Meniul se afiseaza la inceputul jocului, intr-un chenar aproximativ
+centrat. Pentru a naviga in meniu este nevoie de folosirea sagetilor sus si jos.
+Pentru optiunea selectata se va apasa tasta ENTER. Odata inceput jocul, puteti
+apasa tasta Q si va puteti intoarce din nou la meniu. Pentru a va reintoarce la 
+joc in starea in care l-ati lasat este accesibila optiunea RESUME. In cazul 
+in care doriti sa apasati tasta RESUME fara sa aveti un joc inceput vi se va 
+afisa textul "NU EXISTA UN JOC ANTERIOR!".Optiunea QUIT va scoate din terminal.
+Cerința 2:
+Odata apasata optiunea NEW GAME va incepe un nou joc. pe ecran se va afisa 
+tabla de joc incadrata intr-un chenar alb(o forma mai aspectuoasa a tablei 
+nu am stiut si nu am reusit sa implementez).Odata cu aparitia tablei de 
+joc sunt generate in mod aleatoriu 2 numere din multimea {2,4}.Numerele din
+tabla sunt initializate cu valoarea 0, dar in afisare ele nu sunt vizibile 
+daca au aceasta valoare.In partea din dreapta a ecranului se va afisa
+panoul de control in care este afisat scorul obtinut(evidentiat cu culoarea
+galbena), comenzile pe care le poti executa pentru a putea juca jocul si 
+timpul actual (culoarea magenta) exprimat in an-luna-zi ora:minut:secunda.
+Cerința 3:
+Jocul corespunde tuturor nevoilor acestei cerinte, imbinand numerele in 
+directia data de de apasarea tastelor de tip sageti.
+Cerința 5: 
+Odata ce nu vei mai putea face nicio mutare pe tabla de joc, programul va 
+afisa in partea din stanga a tablei mesajul "Game over!", insemnand ca 
+jocul s-a terminat. In caz fericit, daca unul dintre elementele tabelului 
+a luat valoarea 2048, pe ecran se va afisa "You won!". Pentru a continua 
+un nou joc trebuie apasata tasta Q, ceea ce va va trimite inapoi la meniu, 
+de unde puteti crea un nou joc.
+Bonus: colorare margine tabel joc, colorare scor, timp, optiunile castig 
+si pierdere.
